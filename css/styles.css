@@ -1,5 +1,5 @@
 body{
-    background-color: #FFFBF5;                 
+    background-color: #E9D5DA;                 
 }
 hr{
    border-style: none;     
@@ -11,8 +11,18 @@ hr{
    text-align: center;
 }
 h1{
-    color: #674188;
+    color: #4D4C7D;
 }
+
+h1:hover{
+    color: #363062;
+}
+
 h3{
-    color: #674188;
+    color: #4D4C7D;
+}
+
+/************************class selectors******************/
+.circular {
+    border-radius: 100%;
 }
