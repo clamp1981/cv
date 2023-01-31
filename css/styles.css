@@ -2,7 +2,7 @@ body{
     background-color: white;   
     margin: 0;    
     text-align: center;   
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+    font-family: 'Merriweather', serif;      
 }
 hr{
    border-style: none;     
@@ -32,6 +32,8 @@ h3{
 /************************class selectors******************/
 .circular {
     border-radius: 100%;
+    width: 200px;
+    height: 200px;
 }
 
 .top-container{
@@ -40,17 +42,7 @@ h3{
     padding-top: 100px;
 }
 
-.middle-container{
-    background-color: red;   
-    width: 200px;
-    height: 200px;
-}
 
-.bottom-container{
-    background-color: blue; 
-    width: 200px;
-    height: 200px;  
-}
 
 .top-cloud{
     position: absolute;
