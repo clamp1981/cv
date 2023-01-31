@@ -1,5 +1,8 @@
 body{
-    background-color: #E9D5DA;                 
+    background-color: white;   
+    margin: 0;    
+    text-align: center;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
 }
 hr{
    border-style: none;     
@@ -12,6 +15,8 @@ hr{
 }
 h1{
     color: #4D4C7D;
+    margin: 0 auto 0 auto ;
+    width: 30%;
 }
 
 h1:hover{
@@ -22,7 +27,39 @@ h3{
     color: #4D4C7D;
 }
 
+
+
 /************************class selectors******************/
 .circular {
     border-radius: 100%;
+}
+
+.top-container{
+    background-color: #E9D5DA;  
+    position:relative; 
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: red;   
+    width: 200px;
+    height: 200px;
+}
+
+.bottom-container{
+    background-color: blue; 
+    width: 200px;
+    height: 200px;  
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px ;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom: 300px;
 }
